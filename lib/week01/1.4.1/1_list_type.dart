@@ -6,5 +6,8 @@ void main(){
   print(blackPinkList[0]);
   print(blackPinkList[3]);
 
-  print(blackPinkList.lenght);
+  print(blackPinkList.length);
+
+  blackPinkList[3] = '코드팩토리';
+  print(blackPinkList);
 }
