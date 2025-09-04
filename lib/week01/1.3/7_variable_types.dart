@@ -11,5 +11,8 @@ void main(){
   // bool = 불리언 (true/false)
   bool isTrue = true;
   print(name);
+  print(isInt);
+  print(isDouble);
+  print(isTrue);
 
 }
