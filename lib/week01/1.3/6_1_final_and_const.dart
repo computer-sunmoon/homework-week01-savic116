@@ -3,5 +3,6 @@ void main(){
   name = 'BTS';
 
 
-  const S
+  const String name2 ='BTS';
+  name2 = '블랙핑크';
 }
