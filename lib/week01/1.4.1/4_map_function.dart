@@ -4,4 +4,6 @@ void main(){
   final newBlackPink = blackPinkList.map(
     (name) => '블랙핑크 $name',); // 리스트의 모든 값 앞에 블랙핑크 추가
   print(newBlackPink);
+
+  print(newBlackPink.toList());
 }
