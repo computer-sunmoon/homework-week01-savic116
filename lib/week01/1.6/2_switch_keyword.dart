@@ -8,6 +8,7 @@ void main(){
   Status status = Status.approved;
 
   switch (status){
+    case Status.approved;
     
   }
 }
