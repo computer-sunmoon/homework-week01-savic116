@@ -20,7 +20,11 @@ void main(){
      break;
     default:
      print('알 수 없는 상태입니다.');
-     
+
      
   }
+
+
+  // Enum의 모든 수를 리스트로 반환합니다.
+  print(Status.values);
 }
