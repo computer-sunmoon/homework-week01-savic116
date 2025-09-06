@@ -15,6 +15,6 @@ void main(){
     case Status.pending;
     print('대기 상태입니다.');
     break;
-    
+    case Status.rejected
   }
 }
