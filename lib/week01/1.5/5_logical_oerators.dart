@@ -8,5 +8,9 @@ void main(){
   bool result3 = 12 > 10 || 1 > 0;
   print(result3); // true
 
-  bool result4 = 12 > 10 || 0 > 1
+  bool result4 = 12 > 10 || 0 > 1;
+  print(result4); // true
+
+  bool result5 = 12 < 10 || 0 > 1;
+  print(result5); // false
   }
