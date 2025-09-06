@@ -1,5 +1,8 @@
 void main(){
   int number1 = 1;
 
-  print()
+  print(number1 is int); // true
+  print(number1 is String); // false
+  print(number1 is! int); // faise
+  print(number1 is! String); // true
 }
