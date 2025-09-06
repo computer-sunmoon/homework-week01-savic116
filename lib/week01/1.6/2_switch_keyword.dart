@@ -5,5 +5,9 @@ enum Status {
 }
 
 void main(){
-  Status status =
+  Status status = Status.approved;
+
+  switch (status){
+    
+  }
 }
