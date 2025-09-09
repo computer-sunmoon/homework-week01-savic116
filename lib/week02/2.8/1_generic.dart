@@ -8,3 +8,8 @@ class Cache<T> {
     required this.data,
   });
 }
+
+void main(){
+  // T의 타입을 LIst<int>로 입력합니다.
+  final cache = Cache<List<int>>
+}
