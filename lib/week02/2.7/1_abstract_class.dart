@@ -11,5 +11,10 @@ abstract class Idol {
 
 }
 class GirlGroup implements Idol{
-  fin
+  final String name;
+  final int membersCount;
+
+
+  GirlGroup(this,name, this.membersCount);
+  
 }
