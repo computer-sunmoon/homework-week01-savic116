@@ -13,3 +13,5 @@ class Idol {
     print('${this.name} 맴버는 ${this.membersCount}명입니다.');
   }
 }
+
+class BoyG
