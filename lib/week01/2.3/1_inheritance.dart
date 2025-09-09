@@ -31,3 +31,8 @@ class BoyGroup extends Idol{
     print("저는 남자 아이돌입니다.");
   }
 }
+void main(){
+
+  BoyGroup bts = BoyGroup('BTS', 7); // 생성자로 객체 생성
+
+}
