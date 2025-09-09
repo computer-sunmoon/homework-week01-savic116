@@ -14,4 +14,14 @@ class Idol {
   }
 }
 
-class BoyG
+class BoyGroup extends Idol{
+
+  //  상속받은 생성자
+
+  BOyGroup(
+    String name,
+    int membersCount,
+  ) : super(
+    
+  )
+}
