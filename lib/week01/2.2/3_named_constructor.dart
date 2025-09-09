@@ -9,5 +9,7 @@ class Idol {
     : this.name = name,
     this.membersCount = membersCount;
 
-    
+
+  // 네임드 생성자
+  // (클래스명, 네임드)
 }
