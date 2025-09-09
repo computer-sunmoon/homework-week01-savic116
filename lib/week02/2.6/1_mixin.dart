@@ -14,9 +14,9 @@ mixin IdolSingMixin on Idol{
     print('저는 남자 아이돌입니다.');
   }
 
-  void main(){
-    BoyGroup bts = BoyGroup('BTS', 7);
-  }
-
-  
 }
+
+void main(){
+    BoyGroup bts = BoyGroup('BTS', 7);
+    bts.sing();
+  }
