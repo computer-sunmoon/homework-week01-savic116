@@ -26,5 +26,7 @@ class GirlGroup implements Idol{
     print('저는 여자 아이돌 ${this.name}입니다.');
   }
 
-  
+  void sayMembersCount(){
+    print()
+  }
 }
