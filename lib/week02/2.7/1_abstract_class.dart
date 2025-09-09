@@ -8,5 +8,8 @@ abstract class Idol {
 
   void sayName(); // 추상 메서드 선언
   void sayMembersCount(); // 추상 메서드 선언
-  
+
+}
+class GirlGroup implements Idol{
+  fin
 }
