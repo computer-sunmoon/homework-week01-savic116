@@ -30,3 +30,10 @@ class GirlGroup implements Idol{
     print('${this.name} 맴버는 ${this.membersCount}명입니다.');
   }
 }
+
+void main(){
+  GirlGroup blackPink = GirlGroup('블랙핑크', 4);
+
+  blackPink.sayName();
+  blackPink.sayMembersCount();
+}
