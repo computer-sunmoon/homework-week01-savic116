@@ -10,6 +10,6 @@ class Idol {
 
 
   void sayMembersCount(){
-    print('${this.name} 맴버는 ${this.membersCount}')
+    print('${this.name} 맴버는 ${this.membersCount}명입니다.');
   }
 }
