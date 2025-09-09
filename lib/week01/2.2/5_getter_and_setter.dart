@@ -15,3 +15,6 @@ class Idol {
     this._name = name;
   }
 }
+void main(){
+  Idol blackPink = Idol();
+}
