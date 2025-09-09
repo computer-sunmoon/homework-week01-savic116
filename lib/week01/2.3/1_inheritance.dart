@@ -18,10 +18,9 @@ class BoyGroup extends Idol{
 
   //  상속받은 생성자
 
-  BOyGroup(
+  BoyGroup(
     String name,
     int membersCount,
-  ) : super(
-    
+  ) : super(    
   )
 }
