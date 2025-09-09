@@ -1,6 +1,6 @@
 class Idol {
   final String name;
-  final int nembersCount;
+  final int membersCount;
 
 
   // 생성자
@@ -13,4 +13,11 @@ class Idol {
   // 네임드 생성자
   // {클래스명, 네임드 생성자명} 형식
   // 나머지 과정은 기본 생성자와 같습니다.
+  Idol.fromMap(Map<String, dynamic> map)
+      : this.name = map['name'],
+        this.membersCount = map['membersCount'];
+
+  void sayName(){
+    
+  }
 }
