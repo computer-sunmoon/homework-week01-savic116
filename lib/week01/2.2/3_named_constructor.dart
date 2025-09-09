@@ -21,3 +21,14 @@ class Idol {
     print('저는 ${this.name}입니다. ${this.name} 맴버는 ${this.membersCount}명입니다.');
   }
 }
+void main(){
+  // 기본 생성자 사용
+  Idol blackPink = Idol('블랙핑크', 4);
+  blackPink.sayName();
+
+  // fromMap이라는 네임드 생성자 사용
+  Idol bts = Idol.fromMap({
+    'name : BTS',
+    'membersCount : 7',
+  });
+}
