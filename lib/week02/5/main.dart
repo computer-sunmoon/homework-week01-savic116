@@ -4,7 +4,9 @@ void main(){
     MaterialApp(
       home: Scaffold(
         body: Text(
-          'Hello Code Factory',)
-          ,))
+          'Hello Code Factory',
+          ),
+        ),
+    )
   );
 }
