@@ -6,6 +6,8 @@ void main() {
   switch (val){
     case(1, _) when val.$2 > 0:
      print('1, _');
-     brea
+     break;
+    default:
+     print('default');
   }
 }
