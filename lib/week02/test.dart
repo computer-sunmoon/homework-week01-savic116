@@ -27,7 +27,9 @@ class Idol {
   // 세터는 매개번수로 딱 하나의 변수를 받을 수 있습니다.
 
   set members(int members){
-    if(members >= 1 &&)
+    if(members >= 1 && members <= 12){
+      
+    }
     this._members = members;
   }
 }
