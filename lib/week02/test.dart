@@ -34,11 +34,11 @@ class Idol {
       print("멤버 수는 1~12 사이여야 합니다.");
     }
   }
-  sayName(String name){
-    print("저는 ${name}입니다");
+  sayName(){
+    print("저는 ${this.name}입니다");
   }
-  printSummary(int members, String name){
-    print("그룹: ${name}, 멤버 수: ${members}");
+  printSummary(){
+    print("그룹: ${this.name}, 멤버 수: ${this.members}");
   }
 }
 void main(){
