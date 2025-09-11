@@ -34,9 +34,10 @@ class Idol {
       print("멤버 수는 1~12 사이여야 합니다.");
     }
   }
-  sayName(name){
+  sayName(String name){
     print("저는 ${name}입니다");
   }
+  printSummary()
 }
 void main(){
   Idol blackPink = Idol();
