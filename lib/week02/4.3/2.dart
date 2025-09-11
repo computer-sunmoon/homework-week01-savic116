@@ -1,5 +1,5 @@
 void switcher(dynamic anything){
-  switch (anything){
+  switcher (anything){
     // 정확히 'aaa; 문자열만 매치합니다.
     case 'aaa' :
      print('match: aaa');
@@ -23,4 +23,8 @@ void switcher(dynamic anything){
     default:
      print('no match');
   }
+}
+void main(){
+  // match: aaa 출력
+  swticher('aaa');
 }
