@@ -27,5 +27,14 @@ void switcher(dynamic anything){
 void main(){
   // match: aaa 출력
   switcher('aaa');
-
+  // match: [1, 2] 출력
+  switcher([1, 2]);
+  // match: [_, _, _]출력
+  switcher([3, 4, 5]);
+  // match: [int 6, int 7] 출력
+  switcher([6, 7]);
+  // match: (String: 민지, int: 19) 출력
+  switcher(('민지', 19));
+  // no match 출력
+  switcher(8);
 }
