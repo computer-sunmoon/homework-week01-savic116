@@ -52,6 +52,11 @@ class BoyGroup extends Idol{
     name,
     members, 
   );
+  
+  @override
+  void SayName(){
+    print('저는 보이그룹 ${this.name}입니다.');
+  }
 
   // 상속받지 않은 기능
   void sayMale(){
