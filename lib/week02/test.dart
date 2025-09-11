@@ -1,6 +1,6 @@
 class Idol {
   String _name = '블랙핑크';
-  String _name;
+  int _members =;
   Idol(this._name);
 
   // get 키워드를 사용해서 게터임을 명시합니다.
