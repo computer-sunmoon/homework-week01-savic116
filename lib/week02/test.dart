@@ -41,6 +41,23 @@ class Idol {
     print("그룹: ${this.name}, 멤버 수: ${this.members}");
   }
 }
+class BoyGroup extends Idol{
+
+  //  상속받은 생성자
+
+  BoyGroup(
+    String name,
+    int members,
+  ) : super(   // super는 부모 클래스를 지칭합니다.
+    name,
+    members, 
+  );
+
+  // 상속받지 않은 기능
+  void sayMale(){
+    print("저는 남자 아이돌입니다.");
+  }
+}
 void main(){
   Idol blackPink = Idol();
 
