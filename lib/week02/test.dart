@@ -34,6 +34,9 @@ class Idol {
       print("멤버 수는 1~12 사이여야 합니다.");
     }
   }
+  sayName(){
+    
+  }
 }
 void main(){
   Idol blackPink = Idol();
