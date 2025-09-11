@@ -37,7 +37,9 @@ class Idol {
   sayName(String name){
     print("저는 ${name}입니다");
   }
-  printSummary()
+  printSummary(int members, String name){
+    print("그룹: ${name}, 멤버 수: ${members}");
+  }
 }
 void main(){
   Idol blackPink = Idol();
