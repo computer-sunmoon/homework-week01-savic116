@@ -11,16 +11,16 @@ sayName()을 오버라이드(override) 하되, 먼저 부모의 sayName()을 호
 main()에서 케스케이드 연산자를 사용해 아래 동작을 연속 호출한다.
 BoyGroup("BTS", 7) 생성 → sayName() → members = 13(실패, 경고 출력) → members = 6(성공) → printSummary()*/ 
 class Idol {
-  String _name;
+  String name;
   int _members;
-  Idol(this._name, this._members);
+  Idol(this.name, this._members);
 
   // get 키워드를 사용해서 게터임을 명시합니다.
   // 게터는 메서드와 다르게 매개변수를 전혀 받지 않습니다.
 
-  String get name {
+  String get members {
     
-    return this._name;
+    return this._members;
   }
 
   // 세터는 set이라는 키워드를 사용해서 선언합니다.
