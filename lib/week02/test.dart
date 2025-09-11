@@ -28,9 +28,11 @@ class Idol {
 
   set members(int members){
     if(members >= 1 && members <= 12){
-      
+      this._members = members;
     }
-    this._members = members;
+    else{
+      print("멤버 수는 1~12 사이여야 합니다.");
+    }
   }
 }
 void main(){
