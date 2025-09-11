@@ -64,8 +64,8 @@ class BoyGroup extends Idol{
   }
 }
 void main(){
-  Idol blackPink = Idol();
-
+  Idol BoyGroup = BoyGroup("BTS", 7) ;
+  BoyGroup("BTS", 7) 
   blackPink.name = '에이핑크'; //세터
   print(blackPink.name); // 게터
 }
