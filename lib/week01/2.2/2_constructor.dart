@@ -16,4 +16,7 @@ class Idol{
 void main(){
   // nmae에 '블랙핑크' 저장
   Idol blackPink = Idol('블랙핑크');
+  blackPink.sayName();
+
+  // name에 BTS 저장
 }
