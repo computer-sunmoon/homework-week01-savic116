@@ -19,4 +19,6 @@ void main(){
   blackPink.sayName();
 
   // name에 BTS 저장
+  Idol bts = Idol('BTS');
+  bts.sayName();
 }
