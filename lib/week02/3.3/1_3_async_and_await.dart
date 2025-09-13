@@ -9,5 +9,7 @@ Future<void> addNumbers(int number1, int number2) async{
 
 
   // await는 대기하고 싶은 비동기 함수 앞에 입력합니다.
-  await Future.delayed(Duration(seconds: 3),())
+  await Future.delayed(Duration(seconds: 3),(){
+    await Future.delayed
+  })
 }
