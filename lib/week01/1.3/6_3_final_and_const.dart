@@ -1,6 +1,6 @@
 void main(){
   // 에러
-  const DateTime now = DateTime.now();
+ // const DateTime now = DateTime.now();
 
-  print(now);
+ // print(now);
 }
