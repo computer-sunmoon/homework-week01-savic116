@@ -3,6 +3,6 @@ void main(){
   // 선언한 변수의 메서드를 연속으로 실행할 수 있습니다.
 //  Idol blackPink = Idol('블랙핑크', 4)
  //  ..sayName()
-   ..sayMembersCount();
+ //  ..sayMembersCount();
   
 }
