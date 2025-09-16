@@ -27,9 +27,7 @@ class MyApp extends StatelessWidget{
                 16.0,
               ),
             ),
-            icon: Icon(
-              Icons.home,
-            ),
+            
           ),
       ),
     ),
