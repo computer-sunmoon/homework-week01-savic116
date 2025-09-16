@@ -18,11 +18,14 @@ class MyApp extends StatelessWidget{
               // 마진 적용 위치
               margin: EdgeInsets.all(16.0),
               child: Padding(
-                padding: EdgeInsetsGeometry.all(16.0)
-                )     
+                padding: EdgeInsetsGeometry.all(16.0),
 
-              
-            
+                child: Container(
+              color: Colors.red,
+              width: 50.0,
+              height: 50.0,
+                 ),
+                ),     
             ),
           ),
       ),
