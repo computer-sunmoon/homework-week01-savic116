@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget{
               width: 50.0,
               height: 50.0,
             ),
-            )
+            ),
           ),
       ),
     ),
