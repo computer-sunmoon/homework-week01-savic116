@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(RowWidgetExample());
 }
 
-class MyApp extends StatelessWidget{
+class RowWidgetExample extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: SafeArea(
+        body: SizedBox(
           top: true,
           child: Container(
             color: Colors.red,
