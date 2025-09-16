@@ -6,7 +6,7 @@ void main(){
   runApp(FloatingActionButtonExample());
 }
 
-class MyApp extends StatelessWidget{
+class FloatingActionButtonExample extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
