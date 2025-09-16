@@ -20,14 +20,17 @@ class MyApp extends StatelessWidget{
                 // 테두리 굵기
                 width: 16.0,
                 // 테두리 색상
-                color: Color.black,
+                color: Colors.black,
               ),
               // 모서리 둥글게 만들기
               borderRadius: BorderRadius.circular(
                 16.0,
               ),
             ),
-            
+            // 높이
+            height: 200.0,
+            // 너비
+            width: 100.0,
           ),
       ),
     ),
