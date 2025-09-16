@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: OutlinedButton(
             onPressed: () {},
-            style: TextButton.styleFrom(
+            style: OutlinedButton.styleFrom(
               foregroundColor: Colors.red,
             ),
-          child: Text('텍스트버튼'),
+          child: Text('아웃라인드버튼'),
           ),
       ),
     ),
