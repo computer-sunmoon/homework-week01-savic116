@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: ElevatedButton(
             onPressed: () {},
-            icon: Icon
+            icon: Icon(
+              Icon.home,
+            )
           child: Text('엘리베이티드버튼'),
           ),
       ),
