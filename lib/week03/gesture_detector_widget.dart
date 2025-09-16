@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: ElevatedButton(
+          GestureDetector(
             onPressed: () {},
             style: ElevatedButton.styleFrom(
               foregroundColor: Colors.red,
