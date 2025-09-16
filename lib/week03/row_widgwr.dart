@@ -13,9 +13,15 @@ class RowWidgetExample extends StatelessWidget{
           // 반대축에서 이동한 공간을 제공하기 위해 높이를 최대한으로 설정
           height: double.infinity,
           child: Row(
-            color: Colors.red,
-            height: 100.0,
-            width: 100.0,
+            // 주축 정렬 지정
+            mainAxisAlignment: MainAxisAlignment.start,
+            // 반대축 정렬 지정
+            crossAxisAlignment: CrossAxisAlignment.center,
+
+            // 넣고 싶은 위젯 입력
+            children: [
+              Container()
+            ]
           )
           
         ),
