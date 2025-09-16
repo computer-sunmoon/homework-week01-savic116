@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: Container(
             color: Colors.black,
-            child: Padding(
+            child: Container(
               // 상하, 좌우로 모두 16픽셀만큼 패딩 적용
               padding: EdgeInsets.all(
                 16.0,
