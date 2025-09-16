@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: Text(
-            '코트팩토리',
+            '코드팩토리',
             style: TextStyle(
               fontSize: 16.0,
               fontWeight: FontWeight.w700,
