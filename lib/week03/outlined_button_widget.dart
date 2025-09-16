@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: TextButton(
+          child: OutlinedButton(
             onPressed: () {},
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
