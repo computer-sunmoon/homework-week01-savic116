@@ -9,14 +9,9 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: SafeArea(context(
-          child: Text(
-            '코드팩토리',
-            style: TextStyle(
-              fontSize: 16.0,
-              fontWeight: FontWeight.w700,
-              color: Colors.blue,
-            ),
+        body: SafeArea(
+          (
+          
           ),
       ),
     ),
