@@ -14,10 +14,8 @@ class MyApp extends StatelessWidget{
         body: Center(
           child: TextButton(
             onPressed: () {},
-            style: Text(
-              fontSize: 16.0,
-              fontWeight: FontWeight.w700,
-              color: Colors.blue,
+            style: TextButton.styleFrom(
+              for
             ),
           ),
       ),
