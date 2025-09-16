@@ -11,7 +11,8 @@ class FloatingActionButtonExample extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: Center(
+        floatingActionButton: FloatingActionButton(
+          //클릭했을 때 실행할 함수
           child: IconButton(
             onPressed: () {},
             icon: Icon(
