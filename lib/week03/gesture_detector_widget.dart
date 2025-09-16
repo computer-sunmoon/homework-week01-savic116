@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          children: GestureDetector(
+          child: GestureDetector(
             onTap:(){
               // 출력 결과는 안드로이드 스튜디오의 {run}탭에서 확인 가능합니다.
               print('on tap');
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget{
             // 제스터를 적용할 위젯
             child: Container(
               decoration: BoxDecoration(
-                coloer: Colors.red,
+                color: Colors.red,
               ),
               width: 100,
               height:  100.0,
