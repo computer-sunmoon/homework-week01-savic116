@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget{
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
             ),
-          child: 
+          child: Text('텍스트버튼'),
           ),
       ),
     ),
