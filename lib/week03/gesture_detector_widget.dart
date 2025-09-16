@@ -22,7 +22,13 @@ class MyApp extends StatelessWidget{
               print('on double tap');
             },
             // 길게 눌렀을 때 실행할 함수
-            onLon
+            onLongPress:(){
+              print('on long press');
+            },
+            // 제스터를 적용할 위젯
+            child: Container(
+              
+            )
           ),
       ),
     ),
