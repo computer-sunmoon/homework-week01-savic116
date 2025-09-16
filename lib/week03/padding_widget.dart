@@ -10,7 +10,14 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Container(co
+          child: Container(
+            color: Colors.blue,
+            child: Padding(
+              // 상하, 좌우로 모두 16픽셀만큼 패딩 적용
+              padding: EdgeInsets.all(
+                16.0,
+              ),
+            )
             child: Container(
               color: Colors.red,
             ),
