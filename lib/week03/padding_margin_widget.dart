@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget{
 
               // 마진 적용 위치
               margin: EdgeInsets.all(16.0),
-              child: Padding(padding: EdgeInsetsGeometry.all,)
+              child: Padding(
+                padding: EdgeInsetsGeometry.all(16.0)
+                )     
 
               
             child: Container(
