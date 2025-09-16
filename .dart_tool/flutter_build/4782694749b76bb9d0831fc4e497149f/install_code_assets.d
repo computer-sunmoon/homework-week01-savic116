@@ -1,0 +1,1 @@
+ C:\\FlutterProject\\homework-week01-savic116\\.dart_tool\\flutter_build\\4782694749b76bb9d0831fc4e497149f\\native_assets.json: 
