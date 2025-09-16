@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: TextButton(
-            '코트팩토리',
-            style: TextStyle(
+            onPressed: () {},
+            style: Text(
               fontSize: 16.0,
               fontWeight: FontWeight.w700,
               color: Colors.blue,
