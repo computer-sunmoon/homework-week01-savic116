@@ -22,7 +22,10 @@ class MyApp extends StatelessWidget{
                 // 테두리 색상
                 color: Color.black,
               ),
-              
+              // 모서리 둥글게 만들기
+              borderRadius: BorderRadius.circular(
+                16.0,
+              ),
             ),
             icon: Icon(
               Icons.home,
