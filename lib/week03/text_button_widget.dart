@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text(
+          child: TextButton(
             '코트팩토리',
             style: TextStyle(
               fontSize: 16.0,
