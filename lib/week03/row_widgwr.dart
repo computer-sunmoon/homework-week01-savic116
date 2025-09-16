@@ -20,7 +20,11 @@ class RowWidgetExample extends StatelessWidget{
 
             // 넣고 싶은 위젯 입력
             children: [
-              Container()
+              Container(
+                height: 50.0,
+                width: 50.0,
+                color: Colors.red,
+              ),
             ]
           )
           
