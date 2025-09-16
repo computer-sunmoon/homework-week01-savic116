@@ -13,11 +13,9 @@ class FloatingActionButtonExample extends StatelessWidget{
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
           //클릭했을 때 실행할 함수
-          child: IconButton(
             onPressed: () {},
-            icon: Icon(
-              Icons.home,
-            ),
+            child: Text('클릭'),
+            
           ),
       ),
     ),
