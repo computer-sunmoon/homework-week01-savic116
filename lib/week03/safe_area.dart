@@ -13,13 +13,12 @@ class MyApp extends StatelessWidget{
           top: true,
           child: Container(
             color: Colors.red,
-            height
+            height: 100.0,
+            width: 100.0,
           )
-          
           
           ),
       ),
-    ),
-   );
+    );
   }
 }
