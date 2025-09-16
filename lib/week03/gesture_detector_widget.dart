@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget{
             onLongPress:(){
               print('on long press');
             },
-            // 제스터를 적용할 위젯
+            // 제스cj를 적용할 위젯
             child: Container(
               decoration: BoxDecoration(
                 color: Colors.red,
