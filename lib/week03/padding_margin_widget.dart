@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget{
           child: Container(
             color: Colors.black,
             child: Container(
-              // 상하, 좌우로 모두 16픽셀만큼 패딩 적용
-              padding: EdgeInsets.all(
-                16.0,
-              ),
+              color:Colors.blue,
+
+              // 마진 적용 위치
+              margin: EdgeInsets.all(16.0),
+              child: Padding(padding: EdgeInsetsGeometry.all,)
+
               
             child: Container(
               color: Colors.red,
