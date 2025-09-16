@@ -18,7 +18,6 @@ class FloatingActionButtonExample extends StatelessWidget{
           ),
           body: Container(),
       ),
-    ),
    );
   }
 }
