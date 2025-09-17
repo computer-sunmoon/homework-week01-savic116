@@ -20,10 +20,9 @@ class ColumnWidgetExample extends StatelessWidget{
                 // flex값을 제공하지 않으면 기본값은 1입니다.
                 flex: 1,
               
-                Container(
-                  height: 50.0,
-                  width: 50.0,
-                  color: Colors.red,
+                child: Container(
+                  
+                  color: Colors.blue,
                 ),
               ),
               // SizedBox는 일반적으로 공백을 생성할 때 사용
