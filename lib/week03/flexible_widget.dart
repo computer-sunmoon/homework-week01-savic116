@@ -25,8 +25,7 @@ class ColumnWidgetExample extends StatelessWidget{
                   color: Colors.blue,
                 ),
               ),
-              // SizedBox는 일반적으로 공백을 생성할 때 사용
-              const SizedBox(width: 12.0),
+             // 여기서부터 추가할 것
               Container(
                 height: 50.0,
                 width: 50.0,
