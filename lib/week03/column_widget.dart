@@ -6,7 +6,7 @@ void main(){
   runApp(ColumnWidgetExample());
 }
 
-class MyApp extends StatelessWidget{
+class ColumnWidgetExample extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
