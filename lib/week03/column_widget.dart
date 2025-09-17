@@ -43,9 +43,8 @@ class ColumnWidgetExample extends StatelessWidget{
               ),
             ],
           ),
-          ),
+        ),
       ),
     );
-   )
   }
 }
