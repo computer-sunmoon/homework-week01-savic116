@@ -17,7 +17,8 @@ class ColumnWidgetExample extends StatelessWidget{
             children: [
               Flexible(
                 // flex는 남은 공간을 차지할 비율을 의미합니다.
-                
+                // flex값을 제공하지 않으면 기본값은 1입니다.
+                flex: 1,
               )
               Container(
                 height: 50.0,
