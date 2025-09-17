@@ -12,7 +12,11 @@ class ColumnWidgetExample extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: SizedBox(
-          
+          // 반대축에서 이동할 공간을 제공해주기 위해 너비를 최대한으로 설정
+          width: double.infinity,
+          child: Column(
+            
+          )
           ),
       ),
     ),
