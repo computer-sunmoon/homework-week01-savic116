@@ -10,14 +10,11 @@ class FloatingActionButtonExample extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
-      home: Scaffold(
+      home: Scaffold( // floatingActionButton는 scaffold내부에만 사용 사능
         floatingActionButton: FloatingActionButton(
           //클릭했을 때 실행할 함수
             onPressed: () {},
             child: Text('클릭'),
           ),
           body: Container(),
-      ),
-   );
-  }
-}
+ 
