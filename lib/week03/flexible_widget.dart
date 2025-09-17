@@ -15,6 +15,10 @@ class ColumnWidgetExample extends StatelessWidget{
           
             // 넣고 싶은 위젯 입력
             children: [
+              Flexible(
+                // flex는 남은 공간을 차지할 비율을 의미합니다.
+                
+              )
               Container(
                 height: 50.0,
                 width: 50.0,
