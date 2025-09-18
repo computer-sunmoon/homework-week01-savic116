@@ -25,12 +25,17 @@ class ColumnWidgetExample extends StatelessWidget{
                   color: Colors.blue,
                 ),
               ),
-             // 여기서부터 추가할 것
+             Flexible(
+              flex: 1,
+
               Container(
                 height: 50.0,
                 width: 50.0,
                 color: Colors.green,
               ),
+
+             )
+              
               const SizedBox(width: 12.0),
               Container(
                 height: 50.0,
