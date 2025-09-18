@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget{
       home: Scaffold(
         body: Container(
           decoration: BoxDecoration(
-            color: Colors.deepOrange,
+            color: Colors.Orange,
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -23,10 +23,11 @@ class SplashScreen extends StatelessWidget{
              children:[
               Image.asset(
               'assets/logo.png',
+              width: 200,
             ),
             CircularProgressIndicator(),
 
-            ] 
+            ], 
           )
 
             ],
