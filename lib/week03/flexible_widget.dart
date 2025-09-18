@@ -36,7 +36,6 @@ class ColumnWidgetExample extends StatelessWidget{
             ],
           ),
         ),
-      ),
-    );
+      );
   }
 }
