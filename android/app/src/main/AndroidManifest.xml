@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses/>
+    <used-permission android: name/>
     <application
         android:label="myapp"
         android:name="${applicationName}"
