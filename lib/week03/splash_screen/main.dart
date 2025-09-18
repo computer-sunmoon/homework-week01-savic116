@@ -13,9 +13,9 @@ class SplashScreen extends StatelessWidget{
       home: Scaffold(
         body: Center(
           child: Text('Splash Screen'),
-        )
-      )
-    )
+        ),
+      ),
+    );
 
   }
 }
