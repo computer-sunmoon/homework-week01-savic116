@@ -17,8 +17,8 @@ class SplashScreen extends StatelessWidget{
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-          )
-          child: Column(
+            children: [
+              child: Column(
             children:[
               Image.asset(
               'assets/logo.png',
@@ -27,6 +27,10 @@ class SplashScreen extends StatelessWidget{
 
             ] 
           )
+
+            ],
+          )
+          
         ),
       ),
     );
