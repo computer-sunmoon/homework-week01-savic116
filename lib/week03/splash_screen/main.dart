@@ -7,5 +7,7 @@ void main(){
 class SplashScreen extends StatelessWidget{
 
   @override
-  Widget build(BuildContext context){}
+  Widget build(BuildContext context){
+    
+  }
 }
