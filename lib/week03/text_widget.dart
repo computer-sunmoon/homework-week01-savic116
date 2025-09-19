@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget{
                 // 글자 크기
                 fontSize: 16.0,
                 // 글자 굵기
-                fontWeiget: FontWeiget.w700,
+                fontWeight: FontWeight.w700,
                 // 글자 색상
-                color: Color.bule,
+                color: Color.blue,
               )
             )
           ),
