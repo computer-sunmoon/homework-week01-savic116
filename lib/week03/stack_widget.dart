@@ -23,7 +23,7 @@ class ColumnWidgetExample extends StatelessWidget{
                 ),
 
 
-                
+              // 노란색 Container  
              Container(
               height: 250.0,
               width: 250.0,
