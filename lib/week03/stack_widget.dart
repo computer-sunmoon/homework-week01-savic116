@@ -15,13 +15,12 @@ class ColumnWidgetExample extends StatelessWidget{
           
             
             children: [
-              // 파란색 Container
-              Expanded(
-                child: Container(
+              // 빨간색 Container
+              Container(
                   
                   color: Colors.blue,
                 ),
-              ),
+
 
                 
              Expanded(
