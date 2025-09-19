@@ -22,12 +22,10 @@ class MyApp extends StatelessWidget{
                 // 글자 굵기
                 fontWeight: FontWeight.w700,
                 // 글자 색상
-                color: Color.blue,
-              )
-            )
+                color: Colors.blue,
+              ),
+            ),
           ),
-      ),
-    ),
    );
   }
 }
