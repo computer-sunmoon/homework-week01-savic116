@@ -2,7 +2,12 @@ void main(){
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: 
+        body: SizeBox(
+          width: double.infinity,
+          child: Column(
+            
+          )
+        )
       )
     )
   )
