@@ -17,8 +17,9 @@ class ColumnWidgetExample extends StatelessWidget{
             children: [
               // 빨간색 Container
               Container(
-                  
-                  color: Colors.blue,
+                height: 300.0,
+                width: 300.0,
+                  color: Colors.red,
                 ),
 
 
