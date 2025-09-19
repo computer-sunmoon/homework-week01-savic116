@@ -20,7 +20,8 @@ class HomeScreen extends StatelessWidget{
         centerTitle: true,
 
       ),
-      body: Text('Home Screen'),
+      body: WebViewWidget(
+        ('Home Screen'),
     );
   }
 }
