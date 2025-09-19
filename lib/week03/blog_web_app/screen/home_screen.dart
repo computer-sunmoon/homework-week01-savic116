@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget{
     ..setJavaScriptMode(JavaScriptMode.unrestricted);
 
   // const 생성자 여기서 key는 homescreen의 고유 아이디 값
-  HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context){
@@ -30,9 +30,12 @@ class HomeScreen extends StatelessWidget{
           IconButton(
             // 아이콘을 눌렀을 때 실행할 콜백 함수
             onPressed: (){
-              webViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'))
+              webViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'));
 
-            }
+            },
+            icon: Icon(
+              Icons.home,
+            ),
           ),
         ]
 
