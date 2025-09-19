@@ -7,6 +7,13 @@ class HomeScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
+      // 앱바 위젯 추가
+      appBar: AppBar(
+
+        // 배경색 지정
+        backgroundColors: Colors.orange,
+
+      ),
       body: Text('Home Screen'),
     );
   }
