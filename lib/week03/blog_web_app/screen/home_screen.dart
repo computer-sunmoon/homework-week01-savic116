@@ -30,6 +30,7 @@ class HomeScreen extends StatelessWidget{
           IconButton(
             // 아이콘을 눌렀을 때 실행할 콜백 함수
             onPressed: (){
+              webViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'))
 
             }
           ),
