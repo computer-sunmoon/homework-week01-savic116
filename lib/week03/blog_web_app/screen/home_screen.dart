@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget{
 
       ),
       body: WebViewWidget(
-        ('Home Screen'),
+      )
     );
   }
 }
