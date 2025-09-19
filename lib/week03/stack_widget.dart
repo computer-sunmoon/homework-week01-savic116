@@ -11,7 +11,7 @@ class ColumnWidgetExample extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        body: Column(
+        body: Stack(
           
             
             children: [
