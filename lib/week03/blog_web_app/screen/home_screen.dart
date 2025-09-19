@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget{
     ..setJavaScriptMode(JavaScriptMode.unrestricted);
 
   // const 생성자 여기서 key는 homescreen의 고유 아이디 값
-  const HomeScreen({Key? key}) : super(key: key);
+  HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context){
