@@ -24,12 +24,10 @@ class ColumnWidgetExample extends StatelessWidget{
 
 
                 
-             Expanded(
-              child: Container(
+             Container(
                 
                 color: Colors.red,
               ),
-             )
             ],
           ),
         ),
