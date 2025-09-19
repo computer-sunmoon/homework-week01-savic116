@@ -20,7 +20,8 @@ class HomeScreen extends StatelessWidget{
         centerTitle: true,
 
       ),
-      body: WebViewWidget(
+      body: WebViewWidget( // 웹뷰 위젯 추가하기(에러 잠시 무시하기)
+        controller: webViewController, // 에러발생
       )
     );
   }
