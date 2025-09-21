@@ -17,7 +17,13 @@ class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
           ),
 
           child: Column(
-            child: Text('Splash Screen'),
+            children: [
+              // 여러 위젯을 입력할 수 있는 children 매개변수
+              Image.asset(
+                'assets/logo.png',
+              ),
+              CircularProgressIndicator(),
+            ]
           ),
         ),
       ),
