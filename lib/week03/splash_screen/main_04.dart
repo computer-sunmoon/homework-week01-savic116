@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
           ),
         
           child: Center(
-            //
+            // Text 위젯을 Image
             child: Text('Splash Screen'),
           ),
         ),
