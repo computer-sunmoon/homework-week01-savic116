@@ -1,0 +1,13 @@
+import 'package:flutter/widgets.dart';
+
+void main(){
+  runApp(SplashScreen()); // SplashScreen 위젯을 첫 화면으로 지정
+
+}
+
+class SplashScreen extends StatelessWidget{ 
+  @override
+  Widget build(BuildContext context){
+
+  }
+}
