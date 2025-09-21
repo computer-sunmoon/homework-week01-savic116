@@ -15,7 +15,9 @@ class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
           decoration: BoxDecoration(color: Colors.orange,
           ),
 
-          child: Center('Splash Screen'),
+          child: Center(
+            child: Text('Splash Screen'),
+          ),
         ),
       ),
     );
