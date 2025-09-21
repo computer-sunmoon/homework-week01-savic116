@@ -17,6 +17,8 @@ class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
           ),
 
           child: Column(
+            // 가운데 정렬 추가
+            mainAxisAlignment: Main,
             children: [
               // 여러 위젯을 입력할 수 있는 children 매개변수
               Image.asset(
