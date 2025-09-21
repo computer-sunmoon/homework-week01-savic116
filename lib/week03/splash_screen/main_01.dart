@@ -5,9 +5,9 @@ void main(){
 
 }
 
-class SplashScreen extends StatelessWidget{ 
+class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
   @override
-  Widget build(BuildContext context){
-
+  Widget build(BuildContext context){ // 위젯의 UI 구현
+ 
   }
 }
