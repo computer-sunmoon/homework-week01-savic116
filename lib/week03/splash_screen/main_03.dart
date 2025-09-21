@@ -7,7 +7,14 @@ void main(){
 
 class SplashScreen extends StatelessWidget{  // StatelessWidget 선언
   @override
-  Widget build(BuildContext context){ // 위젯의 UI 구현
+  Widget build(BuildContext context){ 
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text('Splash Screen'),
+        ),
+      ),
+    );
  
   }
 }
